@@ -29,9 +29,9 @@ public class HealthInfo {
     @Override
     public String toString() {
         return "HealthInfo{" +
-            "normalTemperature=" + normalTemperature +
-            ", bloodPressure=" + bloodPressure +
-            '}';
+                "normalTemperature=" + normalTemperature +
+                ", bloodPressure=" + bloodPressure +
+                '}';
     }
 
     @Override
@@ -40,7 +40,7 @@ public class HealthInfo {
         if (o == null || getClass() != o.getClass()) return false;
         HealthInfo that = (HealthInfo) o;
         return normalTemperature.equals(that.normalTemperature) &&
-            bloodPressure.equals(that.bloodPressure);
+                bloodPressure.equals(that.bloodPressure);
     }
 
     @Override
